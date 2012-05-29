@@ -1,0 +1,105 @@
+body {
+  background-color: #eee;
+  color: #333;
+  font-family: sans-serif;
+}
+
+.page {
+  margin: 40px auto;
+  width: 260px;
+}
+
+.page > .heading {
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+.page > .heading h1 {
+  font-size: 18pt;
+  margin: 0 0 5px 0;
+}
+.page > .heading h2 {
+  font-size: 10pt;
+  margin: 0;
+}
+
+.tweet-view {
+  margin-bottom: 20px;
+}
+.tweet-view .label {
+  display: block;
+  margin-bottom: 8px;
+  width: 100%;
+}
+.tweet-view .label .step-number {
+  color: #a00;
+  font-weight: bold;
+  font-size: 30px;
+  font-style: italic;
+  margin-right: 7px;
+}
+.tweet-view .chars-remaining {
+  display: block;
+  text-align: right;
+}
+.tweet-view .content {
+  background-clip: border-box;
+  background-color: white;
+  border-color: #CCC;
+  border-style: solid;
+  border-width: 1px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.046875) 0px 1px 3px 0px inset, white 0px 1px 0px 0px;
+  color: #222;
+  cursor: auto;
+  direction: ltr;
+  display: block;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 13px;
+  height: 100px;
+  letter-spacing: normal;
+  line-height: 18px;
+  margin: 10px auto;
+  overflow: hidden;
+  padding: 6px 8px;
+  position: static;
+  resize: vertical;
+  text-align: -webkit-auto;
+  text-indent: 0px;
+  text-shadow: none;
+  text-transform: none;
+  unicode-bidi: embed;
+  white-space: pre-wrap;
+  width: 244px;
+  word-spacing: 0px;
+  word-wrap: break-word;
+}
+.tweet-view .content:focus {
+  border-color: #56B4EF;
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, .05),0 0 8px rgba(82, 168, 236, .6);
+  -moz-box-shadow: inset 0 1px 3px rgba(0,0,0,.05),0 0 8px rgba(82,168,236,.6);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, .05),0 0 8px rgba(82, 168, 236, .6);
+}
+
+.stupid-tagline {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 8pt;
+  margin-bottom: 40px;
+}
+
+.fork-me {
+  background-image: url(fork-me.png);
+  background-repeat: no-repeat;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 149px;
+  height: 149px;
+} .fork-me span {
+  display: none;
+}

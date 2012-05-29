@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>niTwit</title>
+		<link href="styles/reset.css" rel="stylesheet" type="text/css"></link>
+		<link href="styles/main.css" rel="stylesheet" type="text/css"></link>
+		<!--[if lt IE 9]>
+		<script src="scripts/lib/html5shiv.js"></script>
+		<![endif]-->
+		<script src="scripts/lib/jquery-1.7.2.min.js"></script>
+		<script src="scripts/nitwit.js"></script>
+		<script src="scripts/app.js"></script>
+	</head>
+	<body>
+		<div class="page">
+			<hgroup class="heading">
+				<h1>niTwit</h1>
+				<h2>Squeeze more characters into your tweets</h2>
+			</hgroup>
+
+			<div class="tweet-view normal">
+				<label for="tweet-input" class="label"><span class="step-number">1.</span>Type a tweet</label>
+				<textarea class="content" id="tweet-input"></textarea>
+				<span class="chars-remaining">Characters remaining: <span class="char-count"></span></span>
+			</div>
+			<div class="tweet-view nitwit">
+				<button class="label"><span class="step-number">2.</span>Save characters with niTwit!</button>
+				<textarea class="content" id="nitwit-output"></textarea>
+				<span class="chars-remaining">Characters remaining: <span class="char-count"></span></span>
+			</div>
+		</div>
+		<span class="stupid-tagline">Since 2012, still the best way to annoy your followers & get your account suspended!</span>
+		<a href="https://github.com/jugglinmike/nitwit" class="fork-me">
+			<span>Fork Me on GitHub!</span>
+		</a>
+		<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-32214145-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+		</script>
+	</body>
+</html>
